@@ -16,7 +16,7 @@ pipeline{
          }
          stage('deploy-job'){
           steps{
-             sh "sudo su - ravi -c 'ansible-playbook /home/ravi/deploy.yml'"
+             sh "sudo su - ravi -c 'ansible-playbook /home/ravi/gameoflife.yml'"
            }
           }
              }
