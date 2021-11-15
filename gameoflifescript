@@ -6,7 +6,7 @@ pipeline{
       stages{
          stage('check-out'){
            steps{
-             git 'https://github.com/moluguranjith/mavenproject.git'
+             git 'https://github.com/moluguranjith/game-of-life.git'
           }
            }
          stage('build'){
